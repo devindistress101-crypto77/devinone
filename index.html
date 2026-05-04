@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 20px;
+            padding: 8px 16px;
+            margin-bottom: 40px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #a78bfa;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .highlight {
+            color: #8b5cf6;
+            background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            color: #9ca3af;
+            line-height: 1.6;
+            margin-bottom: 60px;
+        }
+
+        .signature {
+            font-size: 0.9rem;
+            color: #6b7280;
+            letter-spacing: 2px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .description {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">▸ COMING SOON</div>
+        <h1>Something <span class="highlight">great</span> is on its way.</h1>
+        <p class="description">We're working hard to bring you something special. Stay tuned for the launch.</p>
+        <p class="signature">— The Devin Team</p>
+    </div>
+</body>
+</html>
