@@ -21,7 +21,6 @@
         
         /* 🏁 Landing Menu */
         #landingMenu { display: flex; flex-direction: row; align-items: flex-start; justify-content: space-between; flex-grow: 1; gap: 40px; padding: 20px; }
-        .survey-container { flex: 1; display: flex; align-items: center; justify-content: center; }
         .buttons-container { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; }
         .menu-btn { width: 320px; padding: 25px; font-size: 1.2rem; font-weight: bold; border-radius: 12px; border: none; cursor: pointer; transition: 0.3s; color: #000; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
         .btn-download-mode { background: #ffcc00; }
@@ -62,9 +61,6 @@
     
    <!-- Shared Landing Menu -->
    <div id="landingMenu">
-    <div class="survey-container">
-        <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgdzBbp3d37u34Rl41caTmW2QTL4_2BqKM_2Bivm2l_2FOcs7LBR.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
-    </div>
     <div class="buttons-container">
         <button class="menu-btn btn-download-mode" onclick="setMode('download')"> Download</button>
         <button class="menu-btn btn-play-mode" onclick="setMode('play')"> Play</button>
